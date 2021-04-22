@@ -45,7 +45,7 @@ def evaluate(model, data_raw, id_to_label, mode='dev'):
         for idx, (p, l) in enumerate(zip(slot_output, slot_ids)):
             p_text, l_text = align_predictions(p, l, slot_labels)
             joint_all += 1
-            if p_text == l_text and i_preds[idx] == i_labels[idx]:
+            if p_text == l_text and intent_label[idx] == intent_output[idx]:
                 joint_correct += 1
 
             s_preds.append(p_text)
