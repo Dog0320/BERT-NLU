@@ -1,5 +1,5 @@
 # BERT-NLU
-Pytorch implmentation for [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909)
+Pytorch implmentation for [BERT for Joint Intent Classification and Slot Filling](https://arxiv.org/abs/1902.10909).
 
 
 ## Requirements
