@@ -46,4 +46,6 @@ python3 predict.py --data_dir data/atis/ --model_path /assets/
 |ATIS |   97.42  | 95.33     |88.80|
 |Snips|     98.43 |  96.14   |91.57|
 
-The results in this respository are not accurately tuned. To reproduce results in the paper, you can further adjust the parameters yourself.
+The results in this respository are not accurately tuned.
+
+To reproduce results in the paper, you can further adjust the parameters yourself.
