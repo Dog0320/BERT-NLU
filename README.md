@@ -48,4 +48,3 @@ python3 predict.py --data_dir data/atis/ --model_path /assets/
 
 The results in this respository are not accurately tuned.
 
-To reproduce results in the paper, you can further adjust the parameters yourself.
